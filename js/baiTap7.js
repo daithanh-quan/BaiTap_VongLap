@@ -1,10 +1,18 @@
+function isPrime(n) {
+  if (n < 2) return false
+  for (let j = 2; j < n; j++) {
+    if (n % j === 0) return false
+  }
+  return true
+}
+
 function handleClick() {
-  var ELE = '2'
+  var ELE = ''
   var n = parseInt(document.getElementById('nNNumber').value)
   var html = document.querySelector('.txtPrintValue')
-  for (let i = 3; i < n; i++) {
-    if (i % 2 !== 0 && i % Math.sqrt(i) !== 0) {
-      ELE += ', ' + i
+  for (let i = 0; i < n; i++) {
+    if (isPrime(i)) {
+      ELE += i + ', '
     }
   }
   return (html.innerHTML = ELE)
