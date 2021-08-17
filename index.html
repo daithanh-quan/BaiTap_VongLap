@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-3">
+          <div
+            class="nav flex-column nav-pills"
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <a
+              class="nav-link active"
+              id="v-pills-home-tab"
+              data-toggle="pill"
+              href="#v-pills-home"
+              role="tab"
+              aria-controls="v-pills-home"
+              aria-selected="true"
+              >Bài tập 1</a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-profile-tab"
+              data-toggle="pill"
+              href="#v-pills-profile"
+              role="tab"
+              aria-controls="v-pills-profile"
+              aria-selected="false"
+              >Bài tập 2</a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-messages-tab"
+              data-toggle="pill"
+              href="#v-pills-messages"
+              role="tab"
+              aria-controls="v-pills-messages"
+              aria-selected="false"
+              >Bài tập 3</a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-settings-tab"
+              data-toggle="pill"
+              href="#v-pills-settings"
+              role="tab"
+              aria-controls="v-pills-settings"
+              aria-selected="false"
+              >Bài tập 4</a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-settings-tab"
+              data-toggle="pill"
+              href="#Bai5"
+              role="tab"
+              aria-controls="v-pills-settings"
+              aria-selected="false"
+              >Bài tập 5</a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-settings-tab"
+              data-toggle="pill"
+              href="#Bai6"
+              role="tab6"
+              aria-controls="v-pills-settings"
+              aria-selected="false"
+              >Bài tập 6</a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-settings-tab"
+              data-toggle="pill"
+              href="#Bai7"
+              role="tab"
+              aria-controls="v-pills-settings"
+              aria-selected="false"
+              >Bài tập 7</a
+            >
+          </div>
+        </div>
+        <div class="col-9 border border-dark rounded">
+          <div class="tab-content" id="v-pills-tabContent">
+            <!-- Bài tập 1 -->
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+              <form>
+                <h2 class="text-center">
+                  <i class="fas fa-sort-numeric-up-alt"></i> Tìm số chẵn lẻ nhỏ
+                  hơn 100
+                </h2>
+                <button
+                  type="button"
+                  class="btn btn-dark mt-5"
+                  id="btnSeeResult"
+                >
+                  Xem kết quả
+                </button>
+                <p class="py-3 alert alert-success mt-3" id="txtSeeResult">
+                  <i class="fas fa-arrow-right"></i>
+                </p>
+              </form>
+            </div>
+            <!-- Bài tập 2 -->
+            <div
+              class="tab-pane fade"
+              id="v-pills-profile"
+              role="tabpanel"
+              aria-labelledby="v-pills-profile-tab"
+            >
+              <form>
+                <h2 class="text-center">
+                  <i class="fas fa-sort-numeric-up-alt"></i> Đếm số chia hết cho
+                  3
+                </h2>
+                <button
+                  type="button"
+                  class="btn btn-dark mt-5"
+                  id="btnSeenResult"
+                >
+                  Xem kết quả
+                </button>
+                <p class="py-3 alert alert-success mt-3" id="txtSeenResult">
+                  <i class="fas fa-arrow-right"></i>
+                </p>
+              </form>
+            </div>
+            <!-- Bài tập 3 -->
+            <div
+              class="tab-pane fade"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+              <form>
+                <h2 class="text-center">
+                  <i class="fas fa-sort-numeric-up-alt"></i> Tìm số nguyên dương
+                  nhỏ nhất
+                </h2>
+                <button type="button" class="btn btn-dark mt-5" id="btnResult">
+                  Xem kết quả
+                </button>
+                <p class="py-3 alert alert-success mt-3" id="txtResult">
+                  <i class="fas fa-arrow-right"></i>
+                </p>
+              </form>
+            </div>
+            <!-- Bài tập 4 -->
+            <div
+              class="tab-pane fade"
+              id="v-pills-settings"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+            >
+              <form>
+                <h1 class="text-center">
+                  <i class="fas fa-superscript"></i> Tính Tổng
+                </h1>
+                <div class="row">
+                  <div class="form-group col-6">
+                    <label for="xNumber">Nhập số x: </label>
+                    <input type="number" class="form-control" id="xNumber" />
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="nNumber">Nhập số n: </label>
+                    <input type="number" class="form-control" id="nNumber" />
+                  </div>
+                </div>
+                <button type="button" class="btnSum btn btn-dark">
+                  Tính Tổng
+                </button>
+                <p class="alert alert-success mt-3" id="txtSum">
+                  <i class="fas fa-arrow-right"></i>
+                </p>
+              </form>
+            </div>
+            <!-- Bài tập 5 -->
+            <div
+              class="tab-pane fade"
+              id="Bai5"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+            >
+              <form>
+                <h1 class="text-center">
+                  <i class="fas fa-superscript"></i> Tính Giai Thừa
+                </h1>
+                <div class="form-group">
+                  <label for="xXNumber">Nhập số n: </label>
+                  <input type="number" class="form-control" id="xXNumber" />
+                </div>
+                <button type="button" class="btn btn-dark" id="btnSum">
+                  Tính
+                </button>
+                <p class="alert alert-success mt-3 txtSum">
+                  <i class="fas fa-arrow-right"></i>
+                </p>
+              </form>
+            </div>
+            <!-- Bài tập 6 -->
+            <div
+              class="tab-pane fade"
+              id="Bai6"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+            >
+              <form>
+                <h2 class="text-center">
+                  <i class="fas fa-code"></i> Tạo Thẻ Div
+                </h2>
+                <button type="button" class="btn btn-dark mt-5" id="btnMakeELE">
+                  Tạo Thẻ
+                </button>
+                <p class="py-3 alert alert-success mt-3" id="txtEven">
+                  <i class="fas fa-arrow-right"></i>
+                </p>
+              </form>
+            </div>
+            <!-- Bài tập 7 -->
+            <div
+              class="tab-pane fade"
+              id="Bai7"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+            >
+              <form>
+                <h1 class="text-center">
+                  <i class="fas fa-signature"></i> In Số Nguyên Tố
+                </h1>
+                <div class="form-group">
+                  <label for="nNNumber">Nhập số n: </label>
+                  <input type="number" class="form-control" id="nNNumber" />
+                </div>
+                <button type="button" class="btn btn-dark" id="btnPrintValue">
+                  In Số
+                </button>
+                <p class="alert alert-success mt-3 txtPrintValue">
+                  <i class="fas fa-arrow-right"></i>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js -->
+    <script src="./js/baiTap1.js"></script>
+    <script src="./js/baiTap2.js"></script>
+    <script src="./js/baiTap3.js"></script>
+    <script src="./js/baiTap4.js"></script>
+    <script src="./js/baiTap5.js"></script>
+    <script src="./js/baiTap6.js"></script>
+    <script src="./js/baiTap7.js"></script>
+  </body>
+</html>
